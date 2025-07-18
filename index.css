@@ -1,14 +1,3 @@
-/*
-
-+(article type)At least one CSS rule uses a type selector.
-+(pSubTitle) At least one class has been added to at least one tag in index.html. The class name describes the semantic purpose of that element.
-+(.pSubTitle)At least one CSS rule uses a class selector.
-+A combination of margin and padding have been used for visual spacing between elements.
-+The product cards have a different background color from the rest of the page.
-+The add-to-cart buttons have a different background color from the rest of the page.
-Properties, such as family, color, or size, of the text inside the product cards have been changed.
-*/
-
 article { /* each item block */
     background-color:white;
     padding: 10px;
