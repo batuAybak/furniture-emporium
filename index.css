@@ -1,0 +1,82 @@
+/*
+
++(article type)At least one CSS rule uses a type selector.
++(pSubTitle) At least one class has been added to at least one tag in index.html. The class name describes the semantic purpose of that element.
++(.pSubTitle)At least one CSS rule uses a class selector.
++A combination of margin and padding have been used for visual spacing between elements.
++The product cards have a different background color from the rest of the page.
++The add-to-cart buttons have a different background color from the rest of the page.
+Properties, such as family, color, or size, of the text inside the product cards have been changed.
+*/
+
+article { /* each item block */
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: ridge;
+    border-radius: 15px;
+}
+
+body {
+    margin: 5% 10% 5%;
+    background-color:aliceblue;
+}
+
+button { /* add to cart buttons */
+  background-color: #32CD32;
+  border-radius: 10px;
+  border-style: outset;
+  color: white;
+  padding: 7px 17px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+img { /* images */
+    width: 300px; height: auto; margin-left: 30px;
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+h1 { /* Main Header */
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-family: "Ephesis", cursive;
+    font-style: normal;
+}
+
+h2 { /* Item titles */
+    margin-top: 4px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+s { /* Slashed price */
+    color: gray;
+    font-size:medium;
+    font-weight: 600;
+}
+
+.pSubTitle { /* Main subtitle */
+    margin-bottom: 5%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: large;
+}
+
+.pItemDescription { /* Item Description */
+    width: 50%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.pPrice { /* New price */
+    color: green;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.button:hover {
+  background-color: green; /* Green */
+}
